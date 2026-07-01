@@ -1,0 +1,7 @@
+/fpf-spec/manifest.json
+/nstd-framework/manifest.json
+*-Anchored.md
+*-Compiled.md
+
+__pycache__/
+*.py[cod]
