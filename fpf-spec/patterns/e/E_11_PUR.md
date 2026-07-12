@@ -20,7 +20,7 @@ parent: E
 
 **First output.** One compact `PatternUseRecommendation@Context` or `PatternUseSequence@Context` record that names the current concern, the recommended pattern use, the reason for recommending it, the expected output shape, blocked stronger uses, and any neighboring governing pattern that becomes current after this use.
 
-**Not this pattern when.** If accepted problem-side material is being carried through P2W, use `E.18.1`. If work is being planned or performed, use the A.15 family. If a gate decision is current, use `A.21`. If a tool-call plan is current, use `C.24`. If the sentence is only about publication, phrase wording, or description use, use `E.8`, `E.17`, or the direct publication or description pattern.
+**Not this pattern when.** If an accepted problem-side record or cue is being carried through P2W, use `E.18.1`. If work is being planned or performed, use the A.15 family. If a gate decision is current, use `A.21`. If a tool-call plan is current, use `C.24`. If the sentence is only about publication, phrase wording, or description use, use `E.8`, `E.17`, or the direct publication or description pattern.
 
 ### E.11.PUR:1 - Problem Frame
 
@@ -35,7 +35,7 @@ Without an explicit pattern-use recommendation relation, four failures recur:
 1. A pattern that only recommends a next FPF use is overread as if it performed work, passed a gate, or authorized work.
 2. Applicability and recommendation collapse: "this pattern can be used" becomes "this pattern is the selected useful use now."
 3. Several pattern uses are described as a workflow or lifecycle, even when they are only a recommended pattern-use sequence.
-4. Teaching language such as "first useful move" becomes a false kind and starts competing with `U.Work`, `U.WorkPlan`, P2W, A.16 language-state moves, C.24 call planning, and C.30 architecture candidate material.
+4. Teaching language such as "first useful move" becomes a false kind and starts competing with `U.Work`, `U.WorkPlan`, P2W, A.16 language-state moves, C.24 call planning, and C.30 architecture candidate records.
 
 ### E.11.PUR:3 - Forces
 
@@ -114,12 +114,12 @@ The sequence is not a work plan, route, workflow, lifecycle, or performed work. 
 | --- | --- |
 | Which FPF pattern use is recommended now? | `PatternUseRecommendation@Context`. |
 | Which several FPF pattern uses belong together for this concern? | `PatternUseSequence@Context`. |
-| Accepted problem-side material is carried toward a next FPF value. | `E.18.1`. |
+| Accepted problem-side record or cue is carried toward a next FPF value. | `E.18.1`. |
 | Work is intended, scheduled, or prepared. | `A.15.2`, `A.15.3`, or `A.15.5`. |
 | Work actually occurred. | `A.15.1`. |
 | A gate admits, degrades, blocks, or abstains. | `A.21`. |
 | An AI agent is planning tool calls. | `C.24`. |
-| Architecture candidate material is current. | `C.30` or the direct architecture child pattern. |
+| Architecture candidate record is current. | `C.30` or the direct architecture child pattern. |
 | Language-state transition is current. | `A.16`. |
 | Publication expression makes the pattern use visible. | `E.8`, `E.11`, `E.17`, or the direct publication pattern. |
 
@@ -153,9 +153,9 @@ Use `PatternUseRecommendation@Context` when the current question is which FPF pa
 
 #### E.11.PUR:5.3 - P2W Boundary
 
-Situation: a problem card has accepted problem-side material and the team asks for the next useful FPF use.
+Situation: a problem card has an accepted problem-side record or cue and the team asks for the next useful FPF use.
 
-Use `E.18.1` for the carry-through relation. `E.18.1` may cite `PatternUseRecommendation@Context` when the next recovered value is a recommended FPF pattern use. P2W remains the relation from accepted problem-side material to the next governed value; `E.11.PUR` does not replace it.
+Use `E.18.1` for the carry-through relation. `E.18.1` may cite `PatternUseRecommendation@Context` when the next recovered value is a recommended FPF pattern use. P2W remains the relation from accepted problem-side record or cue to the next governed value; `E.11.PUR` does not replace it.
 
 #### E.11.PUR:5.4 - Proxy Failure
 
