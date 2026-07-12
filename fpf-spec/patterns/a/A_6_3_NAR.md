@@ -32,14 +32,14 @@ Plain starting vocabulary:
 | `reader-interest or use hypothesis` | The explicit guess about what the reader or listener needs to do with the narrative and what problem the selected structures help solve. |
 | `narrative rendering` | The receiving sequential account that makes the source usable by a reader or listener. |
 | `ordering rationale` | The reason this sequence is used: event order, causal order, discovery order, didactic order, tension order, traversal rule, or another declared rule. |
-| `source return` | The condition under which the reader or later worker must return to the source-bearing material rather than relying on the narrative. |
+| `source return` | The condition under which the reader or later worker must return to the source material rather than relying on the narrative. |
 | `epiplexity question` | The question "how much selected source structure did this rendering pull into an inspectable description for this observer and use?" NAR supplies the relation fields; structural-information and evaluation owners answer the value claim. |
 
 First useful move: write one compact `StructureToNarrativeRenderingCase@Context` for the case. Name the source material, selected source structures, source-structure selection rationale, source temporal posture, route family, narrating or rendering worker, reader-interest or use hypothesis, receiving narrative rendering, intended reader or listener role and use, ordering rationale, preserved structure, foregrounded structure, coarsened or lost structure, recoverability, admissible use, non-admissible use, and source-return condition.
 
 What goes wrong if missed: a useful story becomes a substitute for the source structure. Readers remember a sequence, example, protagonist, conflict, or conclusion, but cannot reconstruct the source relations that made the narrative worth using.
 
-What this buys: the narrative can help human use without pretending to be neutral compression, proof, authority, ethics, evidence, architecture, or the source itself.
+What this buys: the narrative can help human use without pretending to be neutral compression, proof, authority, ethics, evidence, architecture, or the source structure or source episteme itself.
 
 Ordinary use: for low-reliance teaching, orientation, or internal explanation, one compact case note near the narrative is enough. It must still state what the narrative preserves, what it leaves behind, and when to return to the source.
 
