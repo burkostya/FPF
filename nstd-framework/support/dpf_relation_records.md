@@ -36,6 +36,20 @@ PatternFrameworkRelationRecord@NarrativizationAndNarrativeStudiesDPF:
 
 ```text
 PatternFrameworkRelationRecord@NarrativizationAndNarrativeStudiesDPF:
+  relationId: PFR-NSTD-CGUS-DEP-001
+  sourceRef: NSTD.1, NSTD.2, NSTD.6, and NSTD.8
+  targetRef: A.22.CGUS
+  relationFunction: Downstream use of constraint-governed unfolding structures
+  governedUse: narrative rendering may select, order, evaluate, or teach a demonstrative slice over a wider constraint-governed unfolding structure
+  directGoverningPatternRef: A.22.CGUS
+  dependencyOrEditionEffect: DPF depends on Core CGUS distinctions; Core has no reverse dependency on this DPF
+  blockedStrongerReading: narrative sequence, learning route, or framework carrier is not the selected unfolding structure by presentation
+  sourceReturnCondition: return to A.22.CGUS or the local FPF governing pattern when preserved and lost structure, admissible next form, direct exit, or stop condition is missing
+  refreshOrSupersessionCondition: refresh when A.22.CGUS, E.18.3, A.6.3.NAR, or local CGUS block guidance changes
+```
+
+```text
+PatternFrameworkRelationRecord@NarrativizationAndNarrativeStudiesDPF:
   relationId: PFR-NSTD-SRC-REUSE-001
   sourceRef: Source Use And Refresh Map under G.2
   targetRef: NSTD.1 through NSTD.8

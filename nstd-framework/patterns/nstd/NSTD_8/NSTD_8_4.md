@@ -11,6 +11,8 @@ Create a learning route record and keep teaching materials outside pattern bodie
 LearningNarrativeRoute@Context:
   learnerUse:
   sourceStructureSpineRefs:
+  unfoldingStructureRefs?:
+  demonstrativeSliceRefs?:
   sourceArchitectureRef?:
   learningRouteArchitectureRule:
   learningStepOrderingRule:
@@ -30,6 +32,8 @@ LearningNarrativeRoute@Context:
 ```
 
 Actual lessons, seminar outlines, slides, exercises, scripts, session notes, recordings, and examples are separate teaching or test-run files. This pattern states how to design and evaluate them.
+
+When the route teaches a constraint-governed unfolding structure, list that wider structure in `unfoldingStructureRefs?` and the taught path in `demonstrativeSliceRefs?`. The lesson may guide attention through one slice so learners can start working, but it must also teach what the slice omits and where the full structure is governed.
 
 Build the route in eight design passes.
 
@@ -51,7 +55,7 @@ Use reconstruction tasks at several depths.
 | Task depth | Example task | What it tests |
 | --- | --- | --- |
 | Recognition | "Which pattern owns this problem?" | Whether the learner can see the entry condition. |
-| Reconstruction | "Rebuild the pattern-use route from source, forces, solution, and exit." | Whether source structure survived the narrative. |
+| Reconstruction | "Rebuild the pattern-use route from source basis, forces, solution, and exit." | Whether source structure survived the narrative. |
 | Transfer | "Apply the same route to a different domain case." | Whether the learner learned structure rather than anecdote. |
 | Boundary | "Name the non-use condition and owner to return to." | Whether blocked overreads were retained. |
 | Repair | "Given a low `NSTD.6` row, choose the smallest repair route." | Whether improvement discipline survived the lesson. |

@@ -16,9 +16,9 @@ parent: None
 
 Use this pattern when a team must decide whether one admitted narrative rendering version is good enough for one declared reader or listener use.
 
-Evaluated object kind: `NarrativeRenderingVersion@Context`, meaning one admitted narrative rendering version with source material, selected source structures, declared use, ordering rule, and source-return condition. A source text, source pack, style guide, seminar script, slide deck, generated output before `C.35` admission, or broad communication plan is not this evaluated object.
+Evaluated object kind: `NarrativeRenderingVersion@Context`, meaning one admitted narrative rendering version with admitted source basis, selected source structures, declared use, ordering rule, and source-return condition. A source text, source pack, style guide, seminar script, slide deck, generated output before `C.35` admission, or broad communication plan is not this evaluated object.
 
-First useful move: state "quality of which admitted narrative rendering version, for which declared use, under which temporal posture and route family, against which contrast cases?" Then name one admissible narrative rendering, one below-floor narrative rendering, and one wrong-kind object that must return to evaluation selection.
+First useful move: state "quality of which admitted narrative rendering version, for which declared use, under which temporal posture and rendering mediation mode, against which contrast cases?" Then name one admissible narrative rendering, one below-floor narrative rendering, and one wrong-kind object that must return to evaluation selection.
 
 What goes wrong if missed: readability, elegance, engagement, expert approval, or generated fluency substitutes for epiplexity, source-return discipline, and bounded use.
 
@@ -60,7 +60,7 @@ NarrativeRenderingQualityEvaluationCharacteristicSpace@Context:
   floorAndExceptionalMeaning:
   protectedTradeoffSet:
   stopOrReopenCondition:
-  neighborOwnerRefs:
+  neighboringGoverningPatternRefs:
 ```
 
 Object-kind fit:
@@ -69,7 +69,7 @@ Object-kind fit:
 | --- | --- |
 | Admissible narrative rendering | Evaluate all load-bearing characteristics for the declared use. |
 | Below-floor narrative rendering | Evaluate and return low-value repair actions. |
-| Wrong-kind object before invocation | Return to evaluation selection; choose source, style, seminar, generation, publication, or evidence owner. |
+| Wrong-kind object before invocation | Return to evaluation selection; choose admitted source basis, style, seminar, generation, publication, or evidence owner. |
 | Wrong-kind object after invocation | Record explicit object-kind-fit defect and stop; do not silently assign values to unrelated coordinates. |
 
 Default value meanings for ordinal content evaluation:
@@ -83,7 +83,7 @@ Default value meanings for ordinal content evaluation:
 | `4` | Good for declared use with bounded losses and source return. |
 | `5` | Strong for declared use; source relation, repair history, and boundary cases are replayable. |
 
-Default floor: for reliance-bearing or teaching use, all load-bearing characteristics must be at least `4`, and `NarrativeRenderingEpiplexity`, `OrderingRecoverability`, and `SourceReturnReadiness` may not be below `4`. A local low-risk orientation use may set floor `3` only if non-admissible downstream use is explicit.
+Default floor: for reliance-bearing or teaching use, all load-bearing characteristics must be at least `4`, and `NarrativeRenderingEpiplexity`, `OrderingRecoverability`, and `SourceReturnReadiness` may not be below `4`. When the selected source structure is a constraint-governed unfolding structure, `DemonstrativeSliceRecoverability` is load-bearing and may not be below `4`. A local low-risk orientation use may set floor `3` only if non-admissible downstream use is explicit.
 
 Result-row shape:
 
@@ -138,18 +138,18 @@ NarrativeRenderingImprovementLoopInput@Context:
     evaluationCharacteristicSpace
   returnedFindingOrProposalRows:
   expectedReEvaluationResultForm: NarrativeRenderingQualityEvaluationResult@Context
-  neighboringOwnerRefs:
+  neighboringGoverningPatternRefs:
   stopContinueSwitchOrHoldCondition:
 ```
 
-`E.23` may claim improvement only after the changed object version is re-evaluated through `NSTD.6` or through a declared stronger evaluation. If the loop changes the source pack, source-currentness, generated-carrier admission, learning publication carrier, publication face, ethics claim, evidence claim, assurance claim, or evaluation characteristic space, the loop must name that neighboring owner and either keep it as the allowed change slice or open separate work. Style edits, prompt retries, or additional drama are admissible loop operations only when their expected movement under `NSTD.6` is stated and protected trade-offs are checked. `B.4` is relevant only when the narrative episteme or learning route is claimed to evolve across use and renewed operation; `G.11` handles refresh when source currentness, reader telemetry, teaching-test evidence, generated-narrative practice, or FPF edition changes.
+`E.23` may claim improvement only after the changed object version is re-evaluated through `NSTD.6` or through a declared stronger evaluation. If the loop changes the source pack, source-currentness, generated-carrier admission, learning publication carrier, publication face, ethics claim, evidence claim, assurance claim, or evaluation characteristic space, the loop must name the neighboring governing pattern and either keep it as the allowed change slice or open separate work. Style edits, prompt retries, or additional drama are admissible loop operations only when their expected movement under `NSTD.6` is stated and protected trade-offs are checked. `B.4` is relevant only when the narrative episteme or learning route is claimed to evolve across use and renewed operation; `G.11` handles refresh when source currentness, reader telemetry, teaching-test evidence, generated-narrative practice, or FPF edition changes.
 
 Before assigning values, require construction-route evidence. The evaluator must be able to point to the records or source passages that played the role of `NSTD.1` source selection, `NSTD.2` ordering, `NSTD.3` event or mechanism support when live, `NSTD.4` viewpoint and agency discipline when live, `NSTD.5` engagement boundary when live, `NSTD.7` generated-carrier admission when live, and `NSTD.8` learning-route design when live. If those records were not written before drafting, they may be reconstructed from source and carrier, but the reconstruction must be explicit. Do not allow "the narrative already looks good" to substitute for the missing construction route.
 
 Use this evaluation sequence:
 
 1. Object-kind fit: is this an admitted narrative rendering version, not source text, source pack, slide deck, prompt output, style guide, or broad communication plan?
-2. Construction-route fit: can the evaluator recover the selected source structures, ordering rule, source-return condition, and live neighboring-owner routes?
+2. Construction-route fit: can the evaluator recover the selected source structures, ordering rule, source-return condition, and live neighboring governing-pattern routes?
 3. Declared-use fit: is the reader or listener use narrow enough to evaluate, and are non-admissible downstream uses stated?
 4. Load-bearing characteristics: assign values only to the characteristics needed for the declared use, but include every characteristic whose failure would make the use unsafe or useless.
 5. Low-value repair: for every value below floor, name the smallest repair route before proposing style, drama, or generation retries.
@@ -161,9 +161,10 @@ Missingness and lowering rules:
 | --- | --- |
 | Selected source structures absent | `NarrativeRenderingEpiplexity` no higher than `1`; evaluation may stop as wrong object if the rendering has no recoverable source-structure denominator. |
 | Ordering rule absent | `OrderingRecoverability` no higher than `2`. |
-| Source temporal posture, route family, narrating worker, or reader role absent | `TemporalPostureAndRoleFit` no higher than `2`; return to `NSTD.1` before trusting evaluation. |
+| Source temporal posture, rendering mediation mode, narrating worker, or reader role absent | `TemporalPostureAndRoleFit` no higher than `2`; return to `NSTD.1` before trusting evaluation. |
 | Source-structure selection rationale or reader-interest hypothesis absent | `NarrativeRenderingEpiplexity` no higher than `2`, `TemporalPostureAndRoleFit` no higher than `2`, and evaluation must return to `NSTD.1` before style or engagement repair. |
 | Source-return condition absent | `SourceReturnReadiness` no higher than `2`. |
+| Constraint-governed unfolding structure is selected but the rendering declares only a sequence, route card, story line, or lesson chain | `DemonstrativeSliceRecoverability` no higher than `2`; return to `NSTD.1`, `NSTD.2`, and `A.22.CGUS` or the local governing pattern before treating the narrative as a rendering of the wider structure. |
 | Artistic, literary, simplified, or dramatic wording changes source recovery without owner routing | `LanguageStatePrecisionAndCoarseningFit` no higher than `2`; return to `C.2.LS`, `A.6.3.CSC`, `E.17.EFP`, `E.10`, `A.6.P`, or `C.16.Q` before treating style repair as improvement. |
 | Early hook, vibe, story seed, or route hint is evaluated as an admitted narrative rendering | Wrong-kind object for this evaluation; return to `A.16.1`, then `NSTD.1` and `NSTD.2` when route selection becomes explicit. |
 | Engagement effect asserted without persuasion boundary when influence is live | `EngagementBoundedness` no higher than `3` and ethics owner must be named. |
@@ -177,14 +178,15 @@ Default narrative rendering quality characteristics:
 | `SourceStructureSelectionFit` | Are the selected source structures and reader-interest or use hypothesis explicit, non-magical, and well matched to the declared use? | Reopen `NSTD.1`; reconstruct or revise the source-structure selection rationale before changing style, drama, or prompt wording. |
 | `NarrativeRenderingEpiplexity` | How much of the selected source-structure denominator is recoverably pulled into this narrative rendering for the declared use, observer boundary, and source-return condition? | Reopen `NSTD.1`; add source refs, source pins, preserved, foregrounded, or lost-structure accounting, or source-return links. Use `C.33` when architecture-relevant structural-information capture is current. |
 | `OrderingRecoverability` | Can the reader say why this sequence was chosen and what it hides? | Reopen `NSTD.2`; state ordering rule, preserved relations, and lost relations. |
-| `TemporalPostureAndRoleFit` | Do source temporal posture, route family, narrating or rendering worker, reader or listener role, uncertainty, and source-return obligation match the declared use? | Reopen `NSTD.1`; mark retrospective, live, prospective, architecture-mediated, or mixed posture; repair narrator and reader role split and lower claims that overread provisional or fictional structure. |
+| `DemonstrativeSliceRecoverability` | When a constraint-governed unfolding structure is selected, can the reader recover the wider structure, the demonstrative slice, and the hidden branches, loops, alternatives, direct exits, or stop conditions? | Reopen `NSTD.1` and `NSTD.2`; name the selected CGUS or local block, the demonstrative slice, preserved constraints, lost structure, and return to `A.22.CGUS` or the local governing pattern. |
+| `TemporalPostureAndRoleFit` | Do source temporal posture, rendering mediation mode, narrating or rendering worker, reader or listener role, uncertainty, and source-return obligation match the declared use? | Reopen `NSTD.1`; mark retrospective, live, prospective, architecture-mediated, or mixed posture; repair narrator and reader role split and lower claims that overread provisional or fictional structure. |
 | `EventMechanismSupport` | Can the reader reconstruct events, mechanisms, dependencies, or state changes when required? | Reopen `NSTD.3`; add mechanism support or lower causal language. |
 | `ViewpointAgencyDiscipline` | Does viewpoint reveal source structure without false agency, capability, responsibility, or permission? | Reopen `NSTD.4`; split protagonist, actant, role, agency, and ethics owners. |
 | `EngagementBoundedness` | Does engagement support declared use without widening authority? | Reopen `NSTD.5`; add persuasion boundary or reduce engagement device. |
 | `LanguageStatePrecisionAndCoarseningFit` | Does the chosen plain, technical, literary, compressed, didactic, or cue-like language state fit the declared use without hiding relation precision, quality sense, source loss, or route authority? | Publish the language-state facet profile when threshold-bearing, use `A.6.3.CSC` for narrowed-use coarsening, `E.17.EFP` for explanation-facing retelling, `A.16.1`/`A.16.2` for cue or backoff, and `E.10`, `A.6.P`, or `C.16.Q` for precision restoration. |
 | `EthicsEvidenceAssuranceRouting` | Are value, harm, evidence, assurance, and policy claims routed to owners? | Route to `D.1` through `D.5`, `A.10`, `B.3`, or relevant owner. |
 | `MediumAndPublicationFit` | Does the carrier fit the reader and use without changing the claim? | Route publication or audience-unit questions to `E.17`, `E.17.AUD`, or `NSTD.8`. |
-| `SourceReturnReadiness` | Does the narrative tell readers when and where to return to source material? | Add source-return condition or narrow admissible use. |
+| `SourceReturnReadiness` | Does the narrative tell readers when and where to return to the admitted source basis or direct governing pattern? | Add source-return condition or narrow admissible use. |
 
 ### NSTD.6:5 - Archetypal Grounding
 

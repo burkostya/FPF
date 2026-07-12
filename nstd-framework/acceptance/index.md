@@ -17,7 +17,7 @@ Patterns opened: `NSTD.1`, `NSTD.2`, `NSTD.3`, `NSTD.5`, `NSTD.6`, `NSTD.8`.
 
 Source structures that must survive: pattern body structure, EntityOfConcern discipline, relation owner routing, source-return conditions, quality evaluation, DPF relation records, and improvement loop.
 
-Temporal posture and route family: prospective planned learning route over current FPF source structures; direct source-structure route unless an architecture-of-FPF explanation is explicitly opened as architecture-mediated support.
+Temporal posture and rendering mediation mode: prospective planned learning route over current FPF source structures; direct source-structure mode unless an architecture-of-FPF explanation is explicitly opened as architecture-mediated support.
 
 Ordering rule: didactic prerequisite order, with explicit divergence from monolith order when helpful.
 
@@ -25,7 +25,7 @@ Construction route:
 
 1. `NSTD.1`: select the learner use first, then choose the source-structure spine: `EntityOfConcern`, relation owner routing, pattern body shape, source return, DPF package relation, quality evaluation, and improvement loop.
 2. `NSTD.2`: build a didactic prerequisite sequence from that spine; state where it diverges from monolith order and what this hides.
-3. `NSTD.3`: turn each session into a reconstruction target: after the session, the learner should be able to reconstruct one pattern-use route from source, not only repeat the teaching story.
+3. `NSTD.3`: turn each session into a reconstruction target: after the session, the learner should be able to reconstruct one pattern-use route from source basis and selected source structure, not only repeat the teaching story.
 4. `NSTD.5`: add motivation devices only where they protect attention without replacing source return; slogans and examples remain subordinate to reconstructable source structure.
 5. `NSTD.8`: create the learning route record with recurring anchors, source-return links, reconstruction tasks, and application tasks before writing slides or scripts.
 6. `NSTD.6`: evaluate the route only after the above fields exist; a low `NarrativeRenderingEpiplexity` value sends the route back to source-spine selection rather than to style polish.
@@ -44,7 +44,7 @@ Patterns opened: `NSTD.1`, `NSTD.2`, `NSTD.3`, `NSTD.4`, `NSTD.5`, `NSTD.6`, `NS
 
 Source structures that must survive: canon constraints, continuity, premise and theme, character agency, causal plot structure, viewpoint, stakes, and source-return to admitted canon references.
 
-Temporal posture and route family: prospective fictional source structure over an admitted canon or local source pack; direct source-structure route unless architecture of a fictional organization or technology is separately opened as a source structure.
+Temporal posture and rendering mediation mode: prospective fictional source structure over an admitted canon or local source pack; direct source-structure mode unless architecture of a fictional organization or technology is separately opened as a source structure.
 
 Ordering rule: plot-causal order with possible reveal order; reveal order must not hide causal support.
 
@@ -72,7 +72,7 @@ Patterns opened: `NSTD.1`, `NSTD.2`, `NSTD.3`, `NSTD.5`, `NSTD.6`, and `NSTD.8` 
 
 Source structures that must survive: definitions, dependency order, examples, counterexamples, proof-status boundaries, theorem prerequisites, and source return to formal statements.
 
-Temporal posture and route family: retrospective or atemporal explanatory route over existing mathematical source structures; direct source-structure route unless a teaching architecture or knowledge-graph architecture is explicitly used as mediation.
+Temporal posture and rendering mediation mode: retrospective or atemporal explanatory route over existing mathematical source structures; direct source-structure mode unless a teaching architecture or knowledge-graph architecture is explicitly used as mediation.
 
 Ordering rule: didactic dependency order with source-return to formal proof order.
 
@@ -99,7 +99,7 @@ Patterns opened: `NSTD.1`, `NSTD.2`, `NSTD.3`, `NSTD.4`, `NSTD.5`, and `NSTD.6`.
 
 Source structures that must survive: score state, event sequence, possession or control changes, tactical or situational structure, actor roles, uncertainty, provisional interpretation, and return to official result, telemetry, statistics, or recording.
 
-Temporal posture and route family: live unfolding source; direct source-structure route. Architecture-mediated route opens only if the commentary is explicitly about structure of a team, venue, broadcast system, or other holon and uses architecture descriptions as source.
+Temporal posture and rendering mediation mode: live unfolding event stream; direct source-structure mode. Architecture-mediated mode opens only if the commentary is explicitly about structure of a team, venue, broadcast system, or other holon and uses architecture descriptions as admitted source basis.
 
 Ordering rule: live event order with explicit prediction and uncertainty markers; later recap may use causal or tension order but must not erase which claims were provisional during the live event.
 

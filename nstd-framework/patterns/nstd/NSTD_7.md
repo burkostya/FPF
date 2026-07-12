@@ -16,7 +16,7 @@ parent: None
 
 Use this pattern when LLM, NLG, graph-to-text, data-to-text, story-planning, schema-governed generation, or search is used to produce or repair narrative renderings.
 
-First useful move: split source material, generated carrier, source-to-narrative relation, structure capture or loss, correspondence, generation method, evaluation, evidence, assurance, and human admission responsibility.
+First useful move: split admitted source basis, generated carrier, source-to-narrative relation, structure capture or loss, correspondence, generation method, evaluation, evidence, assurance, and human admission responsibility.
 
 What goes wrong if missed: generated fluency, schema compliance, controllability, or story-plan coherence becomes source authority.
 
@@ -63,7 +63,7 @@ Owner split:
 
 | Claim kind | Owner |
 | --- | --- |
-| Source material or source pack | `G.2`, `A.10`, `E.17.EFP` |
+| Source basis or source pack | `G.2`, `A.10`, `E.17.EFP` |
 | Generated or discovered carrier admission | `C.35` |
 | Source-to-narrative relation | `A.6.3.NAR` and this DPF |
 | Structure capture and loss | `C.33` for architecture-relevant carriers; `NSTD.6` epiplexity basis for non-architecture DPF cases |
@@ -80,7 +80,7 @@ Use a six-stage generated-narrative pipeline. Each stage may be lightweight, but
 
 | Stage | Required separation | Typical failure |
 | --- | --- | --- |
-| Source grounding | Source material, source pack, selected structures, source-currentness, and non-use boundary are named before generation. | The prompt becomes the source; missing constraints are invented by the model. |
+| Source grounding | Admitted source basis, source pack, selected structures, source-currentness, and non-use boundary are named before generation. | The prompt is treated as admitted source basis; missing constraints are invented by the model. |
 | Content planning | Source structures to include, omit, foreground, or protect are listed. | The generator chooses content implicitly and loses the denominator for epiplexity. |
 | Discourse or sequence planning | Ordering rule, reveal rule, event plan, or learning route is stated. | Plausible prose hides wrong chronology, causality, proof order, or canon order. |
 | Realization | Language state, style, compression, viewpoint, and engagement devices are selected as rendering choices. | Tone and fluency are mistaken for source fidelity. |
@@ -89,11 +89,11 @@ Use a six-stage generated-narrative pipeline. Each stage may be lightweight, but
 
 For schema-governed generation, treat schema compliance as one input, not as admission. A schema can constrain scene fields, character roles, location, source refs, branch structure, or game-engine requirements. It cannot prove that selected source structures were preserved, that evidence is sufficient, or that human responsibility was assigned. Record schema constraints in the admission case, then test structural and semantic correspondence through `C.34` and `NSTD.6`.
 
-For LLM-assisted analysis or theme generation, treat the model output as an interpretive aid. The worker must still own source selection, coding or theme acceptance, reflexive judgment, and downstream use. A generated theme, plot plan, or source plan may become source material for later narrative work only after admission and source-return conditions are explicit.
+For LLM-assisted analysis or theme generation, treat the model output as an interpretive aid. The worker must still own source selection, coding or theme acceptance, reflexive judgment, and downstream use. A generated theme, plot plan, or source plan may become admitted source basis for later narrative work only after admission and source-return conditions are explicit.
 
 Use three probes before relying on automated output:
 
-1. Source perturbation probe: remove or change one source constraint and check whether the generated carrier changes in the expected way. If it does not, the output may not be grounded in the declared source.
+1. Source perturbation probe: remove or change one constraint in the admitted source basis and check whether the generated carrier changes in the expected way. If it does not, the output may not be grounded in the declared admitted source basis.
 2. Structure recovery probe: ask a reader or evaluator to reconstruct selected source structures from the generated carrier without seeing the prompt. Low recovery returns to content planning or ordering.
 3. Responsibility probe: ask who is accountable for source selection, admission, publication, and reliance. If the answer is "the model", the case is not admitted.
 
@@ -173,9 +173,9 @@ For the franchise continuation probe, a generated scene is especially risky beca
 
 `NSTD.7` is not a prompt-engineering trick. It applies FPF's carrier discipline to generated narrative: produced text is a carrier, not source truth; admission is separate from fluency; improvement needs evaluation rows; source currentness and generator behavior can decay. This is why `C.35`, `G.2`, `G.11`, `A.10`, `B.3`, `E.17`, `NSTD.6`, and `E.23` remain visible.
 
-An LLM drafts a story-like explanation of FPF pattern use from source notes. `NSTD.7` records the prompt output as generated carrier, the source notes as source material, the prompt and generator as method-description context, and `C.35` as admission owner. Only after selected source structures, losses, and source-return condition are recovered may `NSTD.6` evaluate it as a narrative rendering.
+An LLM drafts a story-like explanation of FPF pattern use from source notes. `NSTD.7` records the prompt output as generated carrier, the source notes as admitted source basis, the prompt and generator as method-description context, and `C.35` as admission owner. Only after selected source structures, losses, and source-return condition are recovered may `NSTD.6` evaluate it as a narrative rendering.
 
-A graph-to-text system turns an event graph into a match recap. The event graph, source timestamp, uncertainty markers, and official-result refresh route are source material. The generated recap is a carrier. If the system adds causal explanations not in the graph, those claims are not admitted by graph-to-text success. Repair by lowering causal language, adding source return, or opening the evidence owner.
+A graph-to-text system turns an event graph into a match recap. The event graph, source timestamp, uncertainty markers, and official-result refresh route are admitted source basis for this rendering. The generated recap is a carrier. If the system adds causal explanations not in the graph, those claims are not admitted by graph-to-text success. Repair by lowering causal language, adding source return, or opening the evidence owner.
 
 A game story-planning pipeline generates a branching scene. The schema may require objective, location, actors, traits, constraints, and available actions. `NSTD.7` treats those fields as method and source-plan support, not as proof of playable, coherent, or ethically acceptable narrative. Structural, semantic, executable, and human probes remain separate from fluency.
 
@@ -185,7 +185,7 @@ Use admission and rejection examples.
 
 | Generated carrier | Admit as narrative rendering? | Reason |
 | --- | --- | --- |
-| A fluent summary from a prompt with no source refs. | No. | Source material and selected structure are not recoverable. |
+| A fluent summary from a prompt with no source refs. | No. | Admitted source basis and selected structure are not recoverable. |
 | A graph-to-text candidate with source event ids, ordering rule, and explicit lost relations. | Candidate after `C.35`. | It can proceed to `NSTD.6`, but source recovery and relation strength still need value assignment. |
 | A schema-valid RPG scene that ignores a required canon constraint. | No for source-faithful use. | Schema compliance does not establish correspondence. |
 | A generated FPF seminar outline with source-spine refs and reconstruction tasks. | Candidate teaching publication carrier. | It remains outside DPF pattern bodies and needs `NSTD.8`/`NSTD.6`. |
@@ -207,13 +207,13 @@ If a pipeline variant requires a source type not covered by the current source p
 
 ### NSTD.7:6 - Bias-Annotation
 
-This pattern blocks generated-fluency admission drift: an LLM, NLG system, graph-to-text tool, schema, or story planner produces coherent text and that text is treated as admitted narrative rendering, evidence, assurance, or source authority. Repair by splitting generated carrier, source material, generation method, source-to-narrative relation, capture or loss, correspondence, evaluation, and human admission responsibility. Scope: DPF-local for automated narrativization; it does not replace `C.35` admission or source-pack owners.
+This pattern blocks generated-fluency admission drift: an LLM, NLG system, graph-to-text tool, schema, or story planner produces coherent text and that text is treated as admitted narrative rendering, evidence, assurance, or source authority. Repair by splitting generated carrier, admitted source basis, generation method, source-to-narrative relation, capture or loss, correspondence, evaluation, and human admission responsibility. Scope: DPF-local for automated narrativization; it does not replace `C.35` admission or source-pack owners.
 
 ### NSTD.7:7 - Conformance Checklist
 
 | Check | Passing condition |
 | --- | --- |
-| `CC-NSTD7-1` | Generated carrier is separated from source material, selected source structure, admitted narrative rendering, evidence, and assurance. |
+| `CC-NSTD7-1` | Generated carrier is separated from admitted source basis, selected source structure, admitted narrative rendering, evidence, and assurance. |
 | `CC-NSTD7-2` | `C.35` admission is present before generated output feeds candidate, narrative, or teaching use. |
 | `CC-NSTD7-3` | Source plan, plot or event plan, schema constraints, and generation method are named when relied on. |
 | `CC-NSTD7-4` | Fluency, coherence, controllability, schema compliance, and story planning do not become authority, evidence, or admission. |
@@ -225,7 +225,7 @@ This pattern blocks generated-fluency admission drift: an LLM, NLG system, graph
 | Anti-pattern | What fails | Repair |
 | --- | --- | --- |
 | Fluent generated output as narrative rendering | Carrier admission and source recovery are skipped. | Apply `C.35`, recover selected structure, then evaluate through `NSTD.6`. |
-| Schema compliance as source fidelity | The story satisfies a schema but changes the source. | Add `C.34` correspondence checks; use `C.33` capture-loss checks only for architecture-relevant structural-information use, and use `NSTD.6` epiplexity for non-architecture source-structure loss. |
+| Schema compliance as source fidelity | The story satisfies a schema but changes the selected source structure or a constraint in the admitted source basis. | Add `C.34` correspondence checks; use `C.33` capture-loss checks only for architecture-relevant structural-information use, and use `NSTD.6` epiplexity for non-architecture source-structure loss. |
 | Automation as responsibility holder | Tool output is treated as responsible admission. | Name human role assignment, method, work, decision, or governance owner. |
 | Regeneration as improvement | The worker generates another fluent variant and treats it as quality movement. | Keep the variant as a generated carrier until admission, run `NSTD.6` on the changed rendering version, and use `E.22` or `E.23` only after the improvement question, protected trade-offs, cost and risk, and re-evaluation form are explicit. |
 
@@ -260,7 +260,7 @@ The practical consequence is that `NSTD.7` should make automated work more usabl
 
 ### NSTD.7:12 - Relations
 
-Uses `G.2`, `C.35`, `A.6.3.NAR`, `C.33` for architecture-relevant structural-information capture or loss, `C.34`, `NSTD.6`, `A.19.ECS`, `C.16`, `E.22`, `E.23`, `A.10`, `B.3`, `D.1` through `D.5`, and `G.11`. `E.22`/`E.23` apply only after carrier admission and `NSTD.6` result rows exist; generation retries remain carrier candidates until re-evaluation. Reopen when source material, generator, method, schema, admission note, evaluation result, or generated-narrative SoTA changes. Support-map entry: open `Source Use And Refresh Map` when generation, NLG, story-planning, schema, or source-pack claims are relied on; open `DPF Precision Restoration And Owner Map` when generated source plan, plot plan, schema constraint, admission, correspondence, or responsibility words blur object kinds; open `Semiotic And Language-Precision Bridge` when prompt output changes language state, coarsening, cue, or quality wording.
+Uses `G.2`, `C.35`, `A.6.3.NAR`, `C.33` for architecture-relevant structural-information capture or loss, `C.34`, `NSTD.6`, `A.19.ECS`, `C.16`, `E.22`, `E.23`, `A.10`, `B.3`, `D.1` through `D.5`, and `G.11`. `E.22`/`E.23` apply only after carrier admission and `NSTD.6` result rows exist; generation retries remain carrier candidates until re-evaluation. Reopen when admitted source basis, generator, method, schema, admission note, evaluation result, or generated-narrative SoTA changes. Support-map entry: open `Source Use And Refresh Map` when generation, NLG, story-planning, schema, or source-pack claims are relied on; open `DPF Precision Restoration And Owner Map` when generated source plan, plot plan, schema constraint, admission, correspondence, or responsibility words blur object kinds; open `Semiotic And Language-Precision Bridge` when prompt output changes language state, coarsening, cue, or quality wording.
 
 ### NSTD.7:End
 

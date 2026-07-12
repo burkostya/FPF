@@ -21,6 +21,8 @@ LearningNarrativeRoute@FPFOnboarding:
     - conformance and checking
     - neighboring exits
     - quality and improvement loop
+  unfoldingStructureRefs: A.22.CGUS when the route teaches unfolding from source to next use
+  demonstrativeSliceRefs: first pattern-use route through one selected project case
   learningRouteArchitectureRule: interleaved pattern-use route, not monolith-reference order
   learningStepOrder:
     - failed ordinary use
@@ -159,13 +161,13 @@ After:
 | `2` | The route is engaging or organized, but source spine and reconstruction tasks are weak. |
 | `3` | Source spine and order exist, but learner tasks mostly check recall or enthusiasm. |
 | `4` | Learners reconstruct source relations, source returns, and boundary conditions for one declared use, including after at least one delay or mixed case. |
-| `5` | Learners transfer the route to a heterogeneous case and repair a low-value row after interleaved and spaced practice, without confusing carrier, source, and pattern authority. |
+| `5` | Learners transfer the route to a heterogeneous case and repair a low-value row after interleaved and spaced practice, without confusing carrier, admitted source basis, and pattern authority. |
 
 #### FPF owner teaching
 
 `NSTD.8` connects narrative work to FPF learning without making education a local mythology. It reuses `E.11` for entry, `E.17` for publication carriers, `E.17.AUD` for audience units, `NSTD.5` for motivation, `NSTD.6` for evaluation, `E.22`/`E.23` for improvement, and `G.11` for refresh. The route may be small for a one-off explanation or versioned for a course. The source-return discipline is the same.
 
-An FPF learning route, such as a seminar series or tutorial sequence, teaches the framework across several steps. The source-structure spine includes EntityOfConcern discipline, relation precision, pattern bodies, DPF authoring, architecture synthesis, evaluation, improvement loops, and source-return discipline. The learning order is didactic, not proof of FPF architecture. Learner tasks ask participants to reconstruct one pattern-use route from source, not only repeat a story or slogan.
+An FPF learning route, such as a seminar series or tutorial sequence, teaches the framework across several steps. The source-structure spine includes EntityOfConcern discipline, relation precision, pattern bodies, DPF authoring, architecture synthesis, evaluation, improvement loops, and source-return discipline. The learning order is didactic, not proof of FPF architecture. Learner tasks ask participants to reconstruct one pattern-use route from source basis and selected source structure, not only repeat a story or slogan.
 
 A homotopy mini-course may start with pictures and deformation stories, but the source spine includes definitions, examples, counterexamples, theorem prerequisites, and proof-status boundaries. A reconstruction task might ask the learner to explain where an analogy stops and to return to a formal statement. If learners can retell the image but cannot mark the formal boundary, `NSTD.8` repairs the source spine and tasks before adding more examples.
 
@@ -211,7 +213,7 @@ Learning-route recipes:
 | FPF onboarding route | Pattern entry, EoC, forces, solution, relations, checks, improvement loop. | Practitioner story, failed-use contrast, recurring source-return prompt. | Learner selects correct owner and reconstructs one pattern-use route. |
 | Mathematical explanation route | Definitions, examples, theorem prerequisites, proof-status boundaries. | Analogy, diagram story, dependency sequence, counterexample. | Learner marks where analogy stops and returns to formal statement. |
 | Architecture explanation route | Candidate structures, characteristics, decisions, trade-offs, telemetry. | Trade-off story, viewpoint over stakeholder role, decision-memory path. | Learner separates architecture description, decision, realized structure, and telemetry. |
-| Generated teaching route | Source spine plus generated carrier admission route. | Generated examples or slides after `C.35` and source recovery. | Learner tasks plus admission and evaluation record show the carrier-borne material did not replace source. |
+| Generated teaching route | Source spine plus generated carrier admission route. | Generated examples or slides after `C.35` and source recovery. | Learner tasks plus admission and evaluation record show the carrier-borne material did not replace admitted source basis or selected source structure. |
 | Live debrief route | Event record, provisional interpretation, official correction, source return. | Recap story, tension order, role viewpoint. | Learner distinguishes observation, inference, prediction, and official update. |
 
 For a short one-off teaching note, the route can be tiny: one source-spine item, one ordering rule, one reconstruction question, one source-return link. For a repeated seminar or course, the route should have versioned carriers, task results, and low-value repairs. The size changes; the source-return discipline does not.

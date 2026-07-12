@@ -29,7 +29,7 @@ How maps are reached during work: do not read support maps front-to-back unless 
 | `NSTD.4` | Voice, Focalization, and Agency | DPF pattern | Use viewpoint and protagonist choices without false agency or responsibility. |
 | `NSTD.5` | Engagement, Attention, and Motivation | DPF pattern | Use engagement without turning attention into truth, permission, or authority. |
 | `NSTD.6` | Declared-Use Narrative Rendering Quality Evaluation | DPF evaluation pattern | Evaluate one narrative rendering version for one declared use. |
-| `NSTD.7` | Automated Narrativization and Story Planning | DPF pattern | Split generated-carrier, source, method, admission, evaluation, evidence, and responsibility. |
+| `NSTD.7` | Automated Narrativization and Story Planning | DPF pattern | Split generated carrier, admitted source basis, method, admission, evaluation, evidence, and responsibility. |
 | `NSTD.8` | Learning-Route Narrative Rendering and Reconstruction Return | DPF pattern | Design and evaluate a learning route without moving teaching material into pattern bodies. |
 | Acceptance cases | FPF seminar, franchise continuation, homotopy explanation, live event commentary | Use-test support section | Test the pattern set across heterogeneous narrative work. |
 | Support maps | Architecture bridge, semiotic bridge, source use, precision map, naming and edition route | Reference | Use only when a pattern relation, low-value repair action, source-return condition, or owner-routing doubt points to one of the maps. |

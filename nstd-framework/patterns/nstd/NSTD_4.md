@@ -163,7 +163,7 @@ Use a literalization rewrite ladder.
 | --- | --- | --- |
 | "The architecture wants..." | Shorthand for a selected quality pressure. | Name the architect, decision, characteristic, or trade-off owner. |
 | "The paper proves..." | Shorthand for a source claim inside the paper. | Name proof status, evidence owner, or author claim. |
-| "The model knows..." | Shorthand for model output behavior. | Name training, source, or method claim and admission boundary. |
+| "The model knows..." | Shorthand for model output behavior. | Name the training-data claim, admitted source basis claim, or method claim and admission boundary. |
 | "The protagonist represents the system..." | Reader-facing focalization. | State which source structures the protagonist highlights and hides. |
 | "The market punished..." | Aggregate outcome narrative. | Name actual actors, mechanism uncertainty, evidence owner, or lower the claim. |
 
@@ -231,7 +231,7 @@ This pattern blocks story-function agency drift: protagonist, actant, focalized 
 | Anti-pattern | What fails | Repair |
 | --- | --- | --- |
 | Protagonist as responsible agent | Narrative centrality becomes moral or operational responsibility. | Split protagonist function from `A.13`, `A.2.1`, and ethics owner claims. |
-| Episteme as actor | A paper, standard, pattern, or model "decides" or "knows". | Rewrite as source, evidence, method description, or author work through direct owners. |
+| Episteme as actor | A paper, standard, pattern, or model "decides" or "knows". | Rewrite as source-use, evidence, method description, or author work through direct owners. |
 | Viewpoint hides harmed party | A compelling viewpoint erases affected parties. | Route to `D.1` through `D.5` and add a source-return or viewpoint correction. |
 
 ### NSTD.4:9 - Consequences

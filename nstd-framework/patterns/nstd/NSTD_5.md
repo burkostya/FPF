@@ -75,7 +75,7 @@ Use a reliance-pressure ladder.
 | Trust a claim | Not owned by engagement | `A.10`, `B.3`, source owner, assurance owner. |
 | Decide or act | Not owned by engagement | Decision, policy, ethics, work, or gate owner. |
 
-Engagement can fail in two opposite ways. It may be too weak: readers do not stay with the material long enough to recover the source. It may be too strong: readers rely on the story past the source boundary. The repair is different. Low attention may need a better hook, example, rhythm, or viewpoint. Overreliance needs weaker claim language, source-return markers, affected-party routing, or lower admissible use.
+Engagement can fail in two opposite ways. It may be too weak: readers do not stay with the material long enough to recover the selected source structure. It may be too strong: readers rely on the story past the source-return boundary. The repair is different. Low attention may need a better hook, example, rhythm, or viewpoint. Overreliance needs weaker claim language, source-return markers, affected-party routing, or lower admissible use.
 
 When engagement uses artistic or literary language, do not reduce the issue to style preference. Ask which language-state facet changed: articulation, closure, anchoring, representation factor, threshold, compression, or cue. A more literary passage can be better for a memorial or exploratory essay and worse for a technical source-return task. The declared use and protected source structures decide.
 
@@ -146,7 +146,7 @@ NarrativeEngagementBoundary@HomotopyLoopImage:
 
 #### FPF owner teaching
 
-`NSTD.5` is the pattern that prevents "make it interesting" from becoming a hidden ethics, evidence, or quality claim. FPF already distinguishes value, evidence, assurance, affected parties, language state, and quality terms. Narrative work does not override those distinctions; it adds a design concern: attention must be earned without capturing the source.
+`NSTD.5` is the pattern that prevents "make it interesting" from becoming a hidden ethics, evidence, or quality claim. FPF already distinguishes value, evidence, assurance, affected parties, language state, and quality terms. Narrative work does not override those distinctions; it adds a design concern: attention must be earned without capturing the selected source structure past the declared use.
 
 An explanation of FPF uses a story of a team fixing a broken pattern. The engagement effect is motivation and memory. Protected source structures are EntityOfConcern, forces, solution, checks, and source-return condition. The story may not be used as proof that the pattern works in all domains. Evaluation must check reconstruction, not only enjoyment.
 

@@ -24,7 +24,7 @@ What this buys: sequence becomes an explicit rendering choice rather than hidden
 
 ### NSTD.2:2 - Problem
 
-Narrative is sequential. Many source structures are not. Trees, graphs, mechanism diagrams, dependency sets, option sets, proof dependencies, and architecture views must be traversed. A chosen order preserves some relations and hides others. If the ordering rule is implicit, a fluent sequence can misrepresent the source.
+Narrative is sequential. Many source structures are not. Trees, graphs, mechanism diagrams, dependency sets, option sets, proof dependencies, and architecture views must be traversed. A chosen order preserves some relations and hides others. If the ordering rule is implicit, a fluent sequence can misrepresent the selected source structure.
 
 ### NSTD.2:3 - Forces
 
@@ -43,13 +43,15 @@ Declare the ordering rule before treating the narrative rendering as good enough
 NarrativeOrderingRule@Context:
   narrativeRenderingRef:
   sourceStructureRefs:
+  unfoldingStructureRef?:
+  demonstrativeSliceRef?:
   orderingRuleKind:
   orderRationale:
   preservedSourceRelations:
   foregroundedSourceRelations:
   coarsenedOrLostSourceRelations:
   sourceReturnCondition:
-  neighboringOwnerRefs:
+  neighboringGoverningPatternRefs:
 ```
 
 Admissible ordering-rule kinds include chronology, causality, dependency, discovery, didactic prerequisite, tension, traversal, viewpoint, publication, decision memory, and declared local rule. The name is not enough; the record must say what the rule preserves and loses.
@@ -65,13 +67,15 @@ Choose the rule through a four-question ordering test.
 
 The ordering rule can be mixed, but only if the mixture is explicit. A teaching route may start with didactic prerequisites, use one discovery story to motivate a distinction, then return to formal dependency order. A live commentary may use chronological order for observations and causal order in a later recap. A franchise continuation may use reveal order for suspense while preserving an underlying causal or continuity order. The mixed rule must state where each order applies and what it must not imply.
 
+When the selected source structure is a constraint-governed unfolding structure, the narrative order is a traversal or demonstration slice over that structure. The ordering rule must name the selected unfolding structure, the demonstrative slice used for reader orientation, the preserved constraints and invariants, and the branches, alternatives, loops, direct exits, or stop conditions hidden by the slice. The sequence in the narrative is not the whole unfolding structure and not a work order.
+
 Use this repair table when the narrative feels coherent but readers reconstruct the wrong structure.
 
 | Symptom | Likely hidden order | Repair |
 | --- | --- | --- |
-| Readers think the first-mentioned cause is the strongest cause. | Salience order mistaken for causal order. | Mark salience as viewpoint or teaching order; return causal strength to source owner. |
+| Readers think the first-mentioned cause is the strongest cause. | Salience order mistaken for causal order. | Mark salience as viewpoint or teaching order; return causal-strength claims to the evidence or source governing pattern. |
 | Learners can retell the lesson but fail formal exercises. | Didactic story order mistaken for proof order. | Add proof-return checkpoints and separate example order from theorem dependency. |
-| Stakeholders think a narrative of architecture choices is the project decision sequence. | Explanation order mistaken for decision or work order. | Route decision claims to architecture-decision owners and name the explanatory order. |
+| Stakeholders think a narrative of architecture choices is the project decision sequence. | Explanation order mistaken for decision or work order. | Route decision claims to the architecture-decision governing pattern and name the explanatory order. |
 | Fans like a reveal but continuity breaks. | Reveal order hides source canon constraints. | Add source-pack return and causal and continuity support before dramatic reveal. |
 | A generated story has plausible steps but no preserved source graph. | Generator realization order mistaken for selected source structure. | Return to `NSTD.7`; recover source plan and selected structure before evaluation. |
 
@@ -143,7 +147,7 @@ What changed: chronology, provisional causality, and later source return are sep
 
 #### SoTA-to-action translation
 
-Narratology distinguishes source material, story, discourse, presentation, and focalization in many vocabularies. NLG separates content selection, document planning, microplanning, and realization. `NSTD.2` adopts the operational split, not the vocabulary as a new FPF ontology. The action is: choose what source structure is selected, then choose the traversal or order, then name what the order preserves and loses, then compose. Fluent wording realization cannot repair a bad ordering rule.
+Narratology often distinguishes source material, story, discourse, presentation, and focalization. `NSTD.2` treats that as domain vocabulary and restores the FPF object before use: admit the source basis, select the source structure, choose the traversal or order, name what the order preserves and loses, then compose. NLG makes a similar split through content selection, document planning, microplanning, and realization. Fluent wording realization cannot repair a bad ordering rule.
 
 A homotopy-theory explanation orders material by learner dependency: spaces, paths, homotopy, fundamental group, examples, proof-status boundaries. This is not the historical discovery order and not the formal proof order of a research monograph. The narrative must state that definitions and proof obligations remain in source-return formal statements.
 
@@ -217,11 +221,11 @@ Narrative sequence is a transformation over structure. Making the ordering rule 
 
 ### NSTD.2:11 - SoTA-Echoing
 
-Schmid's `Narratology: An Introduction` supplies the source material, story, narrative, and presentation distinction; Chihaia's `Introductions to Narratology: Theory, Practice and the Afterlife of Structuralism` keeps the DPF from treating one narratology tradition as the whole domain; Gatt and Krahmer's `Survey of the State of the Art in Natural Language Generation` makes content selection and realization separable; Cardona-Rivera and Ware et al.'s "The Story So Far on Narrative Planning" makes planned event and plot structure visible before wording. The DPF adopts that ordering discipline and routes preservation claims to FPF structure owners.
+Schmid's `Narratology: An Introduction` supplies the source-material, story, narrative, and presentation distinction as narratology vocabulary; Chihaia's `Introductions to Narratology: Theory, Practice and the Afterlife of Structuralism` keeps the DPF from treating one narratology tradition as the whole domain; Gatt and Krahmer's `Survey of the State of the Art in Natural Language Generation` makes content selection and realization separable; Cardona-Rivera and Ware et al.'s "The Story So Far on Narrative Planning" makes planned event and plot structure visible before wording. The DPF adopts that ordering discipline only after restoring admitted source basis, selected source structure, and FPF owner routes.
 
 Operational payload:
 
-- From Schmid, use selection, composition, and linearization as separate duties. A route may select source material correctly but still linearize it badly. `NSTD.2` therefore evaluates ordering independently from `NSTD.1` selection.
+- From Schmid, use selection, composition, and linearization as separate duties. A route may admit source basis and select source structure correctly but still linearize it badly. `NSTD.2` therefore evaluates ordering independently from `NSTD.1` selection.
 - From Chihaia, do not assume one narratology school's order terms are universal. If a term such as plot, discourse, fabula, perspective, or presentation is used, it must be translated into the local ordering rule and FPF owner terms.
 - From NLG, content planning and realization are distinct. A generated or human-written text can realize fluent sentences while hiding the content plan. `NSTD.2` asks for the plan before style.
 - From narrative planning, plot order and event order may diverge. This is useful in storycraft and explanation, but the divergence must be recorded so readers do not infer false causality or dependency.
