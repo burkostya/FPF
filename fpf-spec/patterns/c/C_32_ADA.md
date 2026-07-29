@@ -9,7 +9,7 @@ parent: C
 ## C.32.ADA - Architecture Decision Adequacy Scales
 
 > **Type:** Architecture evaluation pattern under C.32
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 
 ### C.32.ADA:1 - Problem frame

@@ -9,7 +9,7 @@ parent: C
 ## C.32.FAIL - Architecture Failure Recognition and Repair
 
 > **Type:** Architectural subpattern under C.32
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 
 ### C.32.FAIL:1 - Problem frame

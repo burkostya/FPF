@@ -9,7 +9,7 @@ parent: C
 ## C.32.ACS - Architecture Characteristic Criteria Set for Improvement Cycles
 
 > **Type:** Architecture characterization pattern under C.32
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 
 ### C.32.ACS:1 - Problem frame

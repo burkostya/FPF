@@ -41,7 +41,7 @@ The opposite failure is also common: every bounded use is burdened with a shortl
 | Light ordinary use | A reversible question with fast feedback should be handled in conversation or a short note. |
 | Durable reliance | Transfer, audit, automation, delayed feedback, expensive feedback, or hard reversal can rely on addressable distinctions. |
 | Result honesty | A generated description or plan does not establish a physical change, clinical outcome, learned capability, organizational change, or performed work. |
-| Flow locality | Pattern selection, selected-pattern application, and downstream subject work can have different results even when one result later supports another flow. |
+| Flow locality | Pattern selection, selected-pattern application, and downstream subject work can have different results. When one result later participates in another TFS, name both exact positions and the direct relation. |
 | Recoverable return | A wrong pattern, missing basis, stronger neighbor, or changed question is represented by a named return rather than silent improvisation. |
 
 ### E.11.PUA:4 - Solution
@@ -55,7 +55,8 @@ The acting `U.System` works under a `U.RoleAssignment`: it selects, constructs, 
 Use this conceptual dependency structure. It states semantic dependencies and possible results, not a workflow, form, interface, serialization, or instruction to materialize every position:
 
 ```text
-current EntityOfConcern + bounded context + practical question
+current EntityOfConcern + effective ReferenceScheme + practical question
+  -> exact ClaimScope, project-work relation, or model-use structure only when current
   -> optional accepted problem-side material when current
   -> public-template or direct-pattern inspection
   -> selected or rejected direct pattern under a fit reason
@@ -94,11 +95,13 @@ When one named later use needs a compact replay carrier but not the fuller candi
 
 ```text
 CompactPatternUseTrace@Context <: U.Episteme:
-  boundedContextRef: U.BoundedContextRef
   entityOfConcernRef: U.EntityRef
   entityOfConcernKindRef: U.KindRef
   claimGraph: U.ClaimGraph by value
   referenceSchemeRef: U.ReferenceSchemeRef
+  claimScopeRef?: U.EntityRef, referencing one U.ClaimScope
+  modelUseStructureRef?: U.EntityRef, referencing one BoundedModelUseStructure
+  projectWorkRef?: U.EntityRef, referencing one composite U.Work
   editionId
   practicalQuestionDescriptionRef: U.EpistemeRef
   consideredDirectPatternRef: U.EntityRef, referencing one U.MethodDescription
@@ -115,7 +118,7 @@ CompactPatternUseTrace@Context <: U.Episteme:
   conditionalReceivingPatternRef?: U.EntityRef, referencing one U.MethodDescription
 ```
 
-The trace is absent from ordinary conversational use. When materialized for a named reliance, the expected-result signature is present exactly when the expected kind admits a relation. A selected pattern may have an obtained result; a rejected pattern leaves obtained-result positions absent. A return names its receiving pattern; a stop does not.
+The trace is absent from ordinary conversational use. When materialized for a named reliance, C.2.1 identifies it through claim content, exact EntityOfConcern, and effective reference scheme. `claimScopeRef`, `modelUseStructureRef`, and `projectWorkRef` are present only when the exact neighboring relation changes the pattern use; they are not additional episteme-identity fields, and the reference alone does not make that relation obtain. The expected-result signature is present exactly when the expected kind admits a relation. A selected pattern may have an obtained result; a rejected pattern leaves obtained-result positions absent. A return names its receiving pattern; a stop does not.
 
 #### E.11.PUA:4.2.1 - Admitted support species and governing patterns
 
@@ -131,17 +134,21 @@ CandidatePatternUse@Context <: U.Episteme
 PatternUseApplicabilityFinding@Context <: U.Episteme
 ```
 
+`@Context` in these legacy support-species names is a compatibility and retrieval suffix. It names no `U.BoundedContext`, universal situation, project container, relation, or identity field. Every support episteme follows C.2.1 identity. Claim scope, bounded model use, project work, qualification window, and other working conditions enter only through the exact neighboring object and direct relation needed by the receiving use.
+
 PUA governs the practical question, optional compact trace, candidate basis, candidate support episteme, candidate rationale, and actual-result closure. `E.11` governs public card comparison rationale. `E.11.PUR` governs fit, applicability, recommendation, coordination rationale, coordination, and ordering. These relations consume A.6.5 SlotSpec discipline; A.6.5 does not govern their identity.
 
 #### E.11.PUA:4.3 - Question, boundary, and expectation
 
 ```text
 PracticalUseQuestion@Context <: U.Episteme:
-  boundedContextRef: U.BoundedContextRef
   entityOfConcernRef: U.EntityRef
   entityOfConcernKindRef: U.KindRef
   claimGraph: U.ClaimGraph by value
   referenceSchemeRef: U.ReferenceSchemeRef
+  claimScopeRef?: U.EntityRef, referencing one U.ClaimScope
+  modelUseStructureRef?: U.EntityRef, referencing one BoundedModelUseStructure
+  projectWorkRef?: U.EntityRef, referencing one composite U.Work
   editionId
   questionDescriptionRef: U.EpistemeRef
 
@@ -176,14 +183,13 @@ The expectation never proves that the result exists. `return`, `wrongTurnRecover
 
 #### E.11.PUA:4.4 - Candidate basis under named reliance
 
-Construct a durable candidate only after inspecting the direct pattern's Problem frame, Problem, Forces, Solution, Consequences, and ordinary boundary. A public README template can supply a reusable starting point, but current project values come from the bounded context.
+Construct a durable candidate only after inspecting the direct pattern's Problem frame, Problem, Forces, Solution, Consequences, and ordinary boundary. A public README template can supply a reusable starting point, but current project values come from the exact EntityOfConcern, practical question, effective reference scheme, and any current claim-scope, project-work, model-use, qualification-window, or other direct relation named by value.
 
 ```text
 CandidatePatternUseBasisRelation@Context <: U.Relation:
   publicTemplateRef?: U.EpistemeRef, referencing one PublicCandidatePatternUseTemplate@FPFReadme
   directPatternRef: U.EntityRef, referencing one U.MethodDescription
   directSolutionSectionRef: U.EntityRef, referencing the E.17 PublicationUnit containing the direct pattern's Solution
-  boundedContextRef: U.BoundedContextRef
   entityOfConcernRef: U.EntityRef
   entityOfConcernKindRef: U.KindRef
   practicalUseQuestionRef: U.EpistemeRef, referencing one PracticalUseQuestion@Context
@@ -193,8 +199,8 @@ CandidatePatternUseBasisRelation@Context <: U.Relation:
   candidatePatternUseRef: U.EpistemeRef, referencing one CandidatePatternUse@Context
   RelationRefKind: U.EntityRef
   Direction: <entityOfConcernRef, practicalUseQuestionRef, directPatternRef> -> candidatePatternUseRef
-  Dependence: bounded-context local to the direct pattern, question, expectation, and candidate editions
-  Identity: <boundedContextRef, entityOfConcernRef, practicalUseQuestionRef, directPatternRef, directSolutionSectionRef, resultExpectationRef, candidatePatternUseRef>
+  Dependence: local to the exact direct pattern, question, expectation, candidate editions, and any additional basis relation named below
+  Identity: <entityOfConcernRef, practicalUseQuestionRef, directPatternRef, directSolutionSectionRef, resultExpectationRef, candidatePatternUseRef>
 
 CandidatePatternUseAdditionalBasisRelation@Context <: U.Relation:
   candidatePatternUseRef: U.EpistemeRef, referencing one CandidatePatternUse@Context
@@ -205,15 +211,17 @@ CandidatePatternUseAdditionalBasisRelation@Context <: U.Relation:
   basisUseDescriptionRef: U.EpistemeRef
   RelationRefKind: U.EntityRef
   Direction: basisValueRef -> candidatePatternUseRef for basisUseDescriptionRef
-  Dependence: bounded-context local to the candidate and basis value editions
+  Dependence: local to the candidate, basis value, exact governing relation, and their current editions
   Identity: <candidatePatternUseRef, basisValueRef, basisValueKindRef, basisRelationSignatureRef if present, basisUseDescriptionRef>
 
 CandidatePatternUse@Context <: U.Episteme:
-  boundedContextRef: U.BoundedContextRef
   entityOfConcernRef: U.EntityRef
   entityOfConcernKindRef: U.KindRef
   claimGraph: U.ClaimGraph by value
   referenceSchemeRef: U.ReferenceSchemeRef
+  claimScopeRef?: U.EntityRef, referencing one U.ClaimScope
+  modelUseStructureRef?: U.EntityRef, referencing one BoundedModelUseStructure
+  projectWorkRef?: U.EntityRef, referencing one composite U.Work
   editionId
   practicalUseQuestionRef: U.EpistemeRef, referencing one PracticalUseQuestion@Context
   problemCardRef?: U.EpistemeRef, referencing one ProblemCard@Context
@@ -272,7 +280,7 @@ PatternUseActualResultReceivingUseDispositionRelation@Context <: U.Relation:
   Identity: <candidatePatternUseRef, resultExpectationRef, actualResultRef, resultFlowPosition, receivingUseRealizationState, realizedReceivingUseRelationRef if present, intendedReceivingUseDescriptionRef if present>
 ```
 
-Candidate, expectation, actual result kind, conditional relation signature, and flow position agree. Path slice and `DesignRunTag` are both present when cross-flow provenance is asserted and both absent otherwise. A result from one flow may become an input, tool, context, or constraint in another flow without changing kind; E.18 carries its new relation position, transfer or crossing relation, and the current `DesignRunTag` boundary.
+Candidate, expectation, actual result kind, conditional relation signature, and flow position agree. Path slice and `DesignRunTag` are both present only when the exact result-producing position and its one TFS are already recoverable under E.18; otherwise both are absent. These fields are local provenance cues, not identifiers for another TFS, a network, or a cross-flow relation. When ordinary language says that a result from one TFS is used as an input, tool, context, or constraint in another, treat those words only as cues. Name the exact position that holds the result and the exact receiving position—one `FlowPositionRef` for each—plus the directly governed relation occurrence connecting their participants, and keep the result's kind unchanged. With no direct relation kind or predicate, return `missing-governor`; with a governor but undecided facts, leave the relation open and name the grounding boundary; with a false predicate, assert no occurrence; with an obtaining occurrence but a missing endpoint binding, return `missing-endpoint-binding` and name that binding. Use E.18 for each TFS-local position and its local `DesignRunTag`; use E.18.NET only when the independently identified TFS values must be treated together as a network. No input, tool, context, constraint, or adjacency label supplies the direct relation.
 
 In the `realized` state, the exact receiving-use relation, kind, and signature are present, while intended-use description and realization condition are absent. In `intendedNotYetRealized`, the intended-use description and realization condition are present, while realized relation positions are absent.
 
@@ -362,7 +370,7 @@ The continuable-work description says what project work can proceed from this st
 
 For immediate `ordinaryBounded` use, recover from the conversation the working subject and question, the direct pattern inspected, the useful result produced or grounded, and the stop or return. Do not reconstruct a candidate dossier merely to replay a cheap local use.
 
-When a named later use relies on fuller replay, recover the exact concern, bounded context, practical question, selected direct pattern and edition-pinned Solution, expected result kind and conditional relation signature when applicable, flow position, grounded actual or honest interim result, receiving-use disposition, and stop or return boundary from the support relations materialized for that reliance.
+When a named later use relies on fuller replay, recover the exact EntityOfConcern, effective reference scheme, practical question, selected direct pattern and edition-pinned Solution, expected result kind and conditional relation signature when applicable, flow position, grounded actual or honest interim result, receiving-use disposition, and stop or return boundary from the support relations materialized for that reliance. Add claim scope, project work, model-use structure, qualification window, or another working condition only through its exact neighboring relation when that relation changes the replayed use.
 
 Recheck the smallest affected claim or relation when the concern, candidate basis, direct Solution, expected result, result grounding, flow position, receiving-use condition, or boundary changes. Reopen pattern selection only when that change alters candidate fit; a new measurement of the same result does not by itself select another pattern. `G.11` governs edition, telemetry, currentness-window, and decay orchestration; PUA supplies the use-specific values and change conditions that orchestration inspects.
 
@@ -380,7 +388,9 @@ An architecture team already has a bounded comparison question but no accepted `
 
 #### E.11.PUA:5.1b - A selection result can support later planning
 
-Pattern-selection work under E.11.PUR produces a `PatternUseRecommendation@Context`. That recommendation is a `patternSelectionFlowResult`. A later PUA use applies the recommended planning pattern and produces a `U.WorkPlan` as a separate `selectedPatternApplicationFlowResult`. E.18 may relate the recommendation to the later use through an explicit crossing, but neither the recommendation nor the plan becomes the machined component expected from downstream subject work.
+Pattern-selection work under E.11.PUR produces a `PatternUseRecommendation@Context`. That recommendation is a `patternSelectionFlowResult`. A later PUA use applies the recommended planning pattern and produces a `U.WorkPlan` as a separate `selectedPatternApplicationFlowResult`. If the recommendation participates in the later TFS, name its exact source position, exact receiving position, and directly governed use-relation occurrence. If that occurrence cannot be established, keep the recommendation and later use separate and state the exact `missing-governor`, unresolved-grounding, false-predicate, or missing-endpoint-binding boundary. Neither the recommendation nor the plan becomes the machined component expected from downstream subject work.
+
+**Build-the-builder recognition case.** An executable compiler edition occupies one exact result position (`FlowPositionRef`) in a compiler-build TFS and is used at one exact compiler-use position (`FlowPositionRef`) in a separately identified program-compilation TFS through a directly governed compiler-use relation occurrence. The compiler edition keeps its kind. Return to E.18 when either TFS-local position is unresolved; return to E.18.NET when the question is how the separately identified build and compilation TFS values form a network, including a recursive one. With no compiler-use kind or predicate, return `missing-governor`; with undecided case facts, keep the relation open; with a false predicate, assert no compiler-use occurrence; with an obtaining occurrence but a missing endpoint binding, return `missing-endpoint-binding` and name that binding. None of these branches permits calling the compiler edition the second flow's input by label alone.
 
 #### E.11.PUA:5.1c - AI-assisted ordinary use returns the subject result
 
@@ -455,13 +465,13 @@ The trace measure improved while subject progress worsened. Keep completeness as
 | Fill the candidate record first | The record freezes a choice before the Solution and boundary are understood. | Inspect first; materialize the candidate only for a named reliance. |
 | Report generated text as the result | Text can describe a physical, clinical, organizational, or learned result without producing it. | Name the exact interim episteme and leave the subject expectation open. |
 | Treat a support record as proof | A well-formed record proves only that fields were written. | Ground inspection, work, result, evidence, and receiving-use relations through their direct patterns. |
-| Copy a result between flows | The same entity may occupy a new relation position, but its kind and provenance do not change by narration. | Use E.18 transfer or crossing relations and keep each flow-local result position. |
+| Call one result the next flow's input | The same entity may participate in another TFS as an input, tool, context, constraint, or other governed participant without changing kind, but those labels and adjacency do not identify its relation. | Name the exact source and receiving positions—one `FlowPositionRef` for each—and the directly governed relation occurrence. If it does not obtain, keep the positions separate and state the exact `missing-governor`, unresolved-grounding, false-predicate, or missing-endpoint-binding boundary. Use E.18 for each TFS-local position and E.18.NET only for the network of independently identified TFS values. |
 
 ### E.11.PUA:9 - Consequences
 
 **Benefits.** A cold reader can apply one pattern and reach a useful result without learning a meta-workflow. Ordinary use remains light, while high-reliance use can preserve basis, expectation, result, and receiving-use distinctions. Physical, clinical, learned, organizational, work, and epistemic results receive the same kind discipline without being forced into one product family.
 
-**Costs.** A success claim is complete only after the result kind and stop condition are named. Reliance-bearing use adds addressable epistemes and relations. Cross-flow uses are represented through explicit E.18 positions instead of one narrative chain.
+**Costs.** A success claim is complete only after the result kind and stop condition are named. Reliance-bearing use adds addressable epistemes and relations. Cross-flow participation requires both exact TFS-local positions and the directly governed relation; E.18.NET is added only when independently identified TFS values must be treated together as a network.
 
 ### E.11.PUA:10 - Rationale
 
@@ -477,7 +487,7 @@ The first result boundary prevents proxy completion. A plan, note, simulation, o
 | --- | --- | --- |
 | Pattern-language practice: situation recognition, conditional solution, consequences, and neighboring-pattern composition | Begin with direct inspection of the full pattern rather than title matching, then apply one conditional Solution to a bounded result. | Adopt the conditional-use logic. Reject recipe following and pattern-ID matching as sufficient application. |
 | Jin, Bai, and Oulasvirta, *Modeling Trial-and-Error Navigation With a Sequential Decision Model of Information Scent*, arXiv:2603.11759 (2026) | Make bounded inspection, wrong-turn recognition, and explicit return part of the ordinary use rather than assuming one perfect first selection. | Adapt the navigation result to pattern use. The preprint does not decide FPF ontology, shortlist size, or whether records are needed. |
-| Current FPF `A.10`, `B.3`, `E.18`, `C.2.1`, and `G.11` evidence, assurance, flow, support-episteme, and currentness practices | Keep basis, result kind, receiving use, and flow provenance addressable when another participant or system will rely on them later. | Adapt conditionally through `relianceBearing`; reject universal trace production for cheap reversible use and keep evidence, assurance, and currentness claims with their governing patterns. |
+| Current FPF `A.10`, `B.3`, `E.18`, `E.18.NET`, `C.2.1`, and `G.11` evidence, assurance, TFS-local position, network, support-episteme, and currentness practices | Keep basis, result kind, receiving use, exact local positions, direct relation, and any current network reading addressable when another participant or system will rely on them later. | Adapt conditionally through `relianceBearing`; reject universal trace production and universal cross-flow edges, and keep evidence, assurance, direct-relation, network, and currentness claims with their governing patterns. |
 | Current FPF `E.11`, `E.11.PUR`, and A.15 | Separate public discovery, one selected-pattern use, recommendation or coordination, intended work, and performed work. | Adopt as the governing ontology for those boundaries. PUA adds only the user-side use method and its dependent relations. |
 
 The practical implication is direct: inspect enough to detect a wrong turn, record only what a named later use needs, and never infer a subject result from the existence of its trace.
@@ -488,7 +498,7 @@ The 2026 navigation study is a current preprint anchor rather than settled conse
 
 ### E.11.PUA:12 - Relations
 
-- **Builds on:** `E.11` for public practical-use guidance, `E.8` for action-guiding pattern form, `E.18` for coupled-flow positions, `A.15` for planning and work, `C.2.1` for support epistemes, and `A.6.5` for slot discipline.
+- **Builds on:** `E.11` for public practical-use guidance, `E.8` for action-guiding pattern form, `E.18` for each TFS-local position and local `DesignRunTag`, `E.18.NET` when independently identified TFS values form a network, direct subject owners for every cross-flow relation occurrence, `A.6.P.WMR` and `A.6.RCD` when its governor or direct claim cannot be recovered, `A.15` for planning and work, `C.2.1` for support epistemes, and `A.6.5` for slot discipline.
 - **Coordinates with:** `E.11.PUR` for applicability, recommendation, and coordination; `E.18.1` for accepted problem-to-work carry-through; `E.22` and `E.23` for evaluation and repeated improvement; `G.11` for currentness orchestration; and each direct pattern that governs the selected result.
 - **Returns to:** `E.11` when no direct pattern is yet selected, `E.11.PUR` when recommendation or ordering among several candidate uses is current, and the exact subject pattern when the result or work claim leaves PUA's boundary.
 
