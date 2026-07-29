@@ -110,7 +110,7 @@ For a project card, row, schema, or diagram, inspect only what the current work 
 5. Does the work need local classification of a candidate, or only a claim about an already governed feature?
 6. What stronger reading must be blocked—for example, record existence creates performed work, a row creates membership, or a field name admits a kind?
 
-A field label is not a `SlotSpec`. A reusable `SlotSpec` appears only inside a `RelationSignature` for an already recovered direct relation and only when a named later use needs that declaration. A row value is not an actual relation participant merely because it occupies a column.
+A field label is not a `SlotSpec`. `A.6.5` governs the declaration: a reusable `SlotSpec` appears only inside a `RelationSignature` for an already recovered direct relation and only when a named later use needs that declaration. A row value is not an actual relation participant merely because it occupies a column.
 
 #### E.24.CD:4.3 - Apply E.24 only when several patterns need the same subject rules
 
@@ -280,7 +280,7 @@ The mitigation is concrete: name the work, subject, needed claim, pattern that s
 | --- | --- | --- |
 | Card-to-kind jump | A useful card is promoted into a `U.*` kind because it has repeated fields. | Recover its claims, subject, form, and carrier; use C.2.1 or E.24.PUB as triggered. |
 | Structural U-kind jump | A heading, title, filename, or ToC row keeps `U.*` because the spelling is convenient. | Recover the subject and use E.24.UK for the admission question; naming follows the result. |
-| Column-to-participant jump | A field label is treated as a relation-participant meaning, or a filled field as an actual participant; either is called a `SlotSpec` because of column position. | Recover the direct predicate, its relation-participant meanings, and its actual participants first. Keep the field as a representation element or participant designation; declare a `SlotSpec` only inside a needed `RelationSignature` for that already recovered relation. |
+| Column-to-participant jump | A field label is treated as a relation-participant meaning, or a filled field as an actual participant; either is called a `SlotSpec` because of column position. | Recover the direct predicate, its relation-participant meanings, and its actual participants first. Keep the field as a representation element or participant designation; under `A.6.5`, declare a `SlotSpec` only inside a needed `RelationSignature` for that already recovered relation. |
 | One-word candidate | A broad word is renamed and treated as settled. | Recover the subject and predicate; use E.10 and E.10.ARCH when only wording remains. |
 | Local-kind inflation | A useful project criterion is promoted to durable public ontology. | Use C.3.2 and keep the local kind, declaration, judgment, and extension distinct. |
 | Registry trap | The author keeps a list of possible ontics without deciding the blocked case. | State the work, apply one truthful governing pattern or name one precise unresolved stop, and stop. |
@@ -326,7 +326,7 @@ Smallest source-currentness reopen trigger: reopen this SoTA slice when a newer 
 
 ### E.24.CD:12 - Relations
 
-- **Builds on:** `E.24` for durable ontic settlement; `E.24.UK` for separate public U-kind admission; `C.2.1` for exact episteme constitution; `C.3`, `C.3.1`, and `C.3.2` for local typed projection; `E.24.PUB` for publication; `C.29` and `C.2.P.DR` for representation and declarative-form overread; `A.6.RSIR`, `A.6.F`, `A.6.P`, `E.10`, and `E.10.ARCH` for bounded ambiguity repair; and `F.18` for naming after the governed value is settled.
+- **Builds on:** `E.24` for durable ontic settlement; `E.24.UK` for separate public U-kind admission; `C.2.1` for exact episteme constitution; `C.3`, `C.3.1`, and `C.3.2` for local typed projection; `E.24.PUB` for publication; `C.29` and `C.2.P.DR` for representation and declarative-form overread; `A.6.5` for `SlotSpec` declaration and participant-designation discipline; `A.6.RSIR`, `A.6.F`, `A.6.P`, `E.10`, and `E.10.ARCH` for bounded ambiguity repair; and `F.18` for naming after the governed value is settled.
 - **Coordinates with:** `A.6.RCD` when the missing piece is a relation-bearing claim that no current direct predicate closes. A local compound claim or predicate-definition episteme is neither a relation kind nor an occurrence; only a separately justified kind candidate proceeds through `E.24` and `E.24.UK`. It also coordinates with `E.17.0` for actual view membership; `A.1`, `B.1`, `B.2`, `A.14`, and `C.13` for a surviving constructed-whole question; `A.3.4`, `A.15.1`, the temporal patterns, and `C.28` for actual change, work, temporal, and causal claims; `A.6.0` and `C.29` for formal-substrate and mathematical-lens use; `C.22.PFR`, `C.22.2`, `E.18.1`, and `E.23` for actual Problem, problem-side formulation, and later problematization; `A.19` for `U.CharacteristicSpace`; and `A.19.ECS` for evaluation-characteristic construction.
 - **Used by:** DRRs and authoring work that must decide whether a recurring construct uses an existing governing pattern, remains one or several bounded epistemes, becomes a local typed projection, applies description or publication handling, receives wording repair, opens E.24, or remains unresolved.
 
